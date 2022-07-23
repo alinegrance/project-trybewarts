@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 241, 222);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 5%;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+main , #evaluation-form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  padding-left: 10%;
+  margin-top: 3%;
+}
+
+.radio-inputs , #checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: rgb(50, 167, 145);
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#submit-btn {
+  box-shadow: inset 0 1px 0 0 rgb(225, 132, 243);
+  background: linear-gradient(to bottom, rgb(193, 35, 222) 5%, rgb(162, 13, 189) 100%);
+  background-color: rgb(130, 108, 134);
+  border-radius: 6px;
+  border: 1px solid rgb(165, 17, 192);
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 284px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgb(155, 20, 179);
+  margin-bottom: 1em;
+  margin-top: 10px;
+}
+
+#btn-header {
+  box-shadow: inset 0 1px 0 0 rgb(225, 132, 243);
+  background: linear-gradient(to bottom, rgb(193, 35, 222) 5%, rgb(162, 13, 189) 100%);
+  background-color: rgb(193, 35, 222);
+  border-radius: 6px;
+  border: 1px solid rgb(165, 17, 192);
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+#house {
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 15px;
+  outline: 0;
+  border: 1px inset rgb(190, 56, 208);
+  border-radius: 26px;
+  background: rgb(220, 209, 221);
+  color: rgb(123, 123, 123);
+  appearance: none;
+  width: 42%;
+  margin-left: 1px;
+}
+
+.css-input {
+  padding: 5px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: rgb(182, 43, 177);
+  background-color: white;
+  border-style: double;
+  border-radius: 15px;
+  box-shadow: 1px 0 5px rgba(194, 66, 179, 0.75);
+  text-shadow: 0 0 1px rgba(190, 21, 159, 0.75);
+}
+
+#input-name.css-input {
+  height: 31px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-size: 30px;
+}
+
+#input-name {
+  width: 48%;
+}
+
+#input-lastname {
+  width: 50%;
+}
+
+#input-email {
+  width: 48%;
+}
+
+#form-data {
+  display: none;
+  flex-direction: column;
+}
+
+.frontend , .backend , .fullstack {
+  padding-left: 30px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#checkbox {
+  display: flex;
+  height: 100px;
+  width: 500px;
+}
+
+.parte1 , .parte2 {
+  display: flex;
+  padding-top: 1%;
+}
+
+.hofs , .jest , .promises {
+  padding-left: 40px;
+}
+
+.react , .sql , .python {
+  display: flex;
+  padding-left: 40px;
+}
+
+#input-radio {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 300px;
+}
+
+.parte-meio {
+  display: flex;
+
+}
+
+#evaluation {
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#comment-area {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.jest , .promises {
+  padding-left: 45px;
+}
+
+#label-family {
+  width: 150px;
+  height: 40%;
+  text-align: center;
+}
+
+#counter {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  z-index: 1;
+  margin-top: 9.5%;
+  margin-left: 38.5%;
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+  color: rgb(155, 20, 176);
+}
+
+.text-area {
+  position: absolute;
+}
+
+form {
+  padding-left: 5%;
+  font-family: sans-serif;
+}
+
+/* stylelint-disable-next-line rule-empty-line-before */
+#label-content {
+  line-height: 1.5em;
+}
